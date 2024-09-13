@@ -738,6 +738,38 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+/* General Styles */
+.about .container {
+  display: flex;
+  flex-direction: row; /* Default layout for larger screens */
+}
+
+.portrait-photo {
+  flex: 1; /* Optional: to ensure it takes up available space */
+  padding: 20px;
+}
+
+.intro-text {
+  flex: 1; /* Optional: to ensure it takes up available space */
+  padding: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .about .container {
+      flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .portrait-photo {
+      order: 2; /* Place "portrait-photo" second on mobile */
+  }
+
+  .intro-text {
+      order: 1; /* Place "intro-text" first on mobile */
+  }
+}
+
+
 .about .btn-get-started {
   background-color: var(--accent-color);
   color: var(--contrast-color);
