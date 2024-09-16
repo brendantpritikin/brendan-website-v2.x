@@ -754,7 +754,7 @@ section,
 }
 
 .intro-text {
-  margin-top: 200px; /* photo width is set to 400 px from a higher res; height is 533px */
+  margin-top: 130px; /* photo width is set to 400 px from a higher res; height is 533px */
   flex: 1; /* Optional: to ensure it takes up available space */
   padding: 0px;
   order: 1;
