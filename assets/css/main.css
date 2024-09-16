@@ -750,7 +750,7 @@ section,
 .portrait-photo {
   padding: 0px;
   order: 2;
-  justify-content: right;
+  justify-content: center;
 }
 
 .intro-text {
@@ -778,6 +778,7 @@ section,
 
   .portrait-photo {
     padding: 0px;
+    justify-content: center;
     flex: 1; /* to ensure it takes up all available space in row */
     order: 2; /* position below text on mobile site */
   }
