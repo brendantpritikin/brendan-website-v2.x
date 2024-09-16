@@ -772,7 +772,7 @@ section,
     margin-top: 0px;
     margin-bottom: 50px;
     flex: 1; /* to ensure it takes up available space */
-    padding-right: 55px;
+    padding-right: 0px;
     order: 1; /* position at top of mobile site */
   }
 
