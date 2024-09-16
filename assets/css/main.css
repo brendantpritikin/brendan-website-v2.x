@@ -761,7 +761,7 @@ section,
 }
 
 /* Mobile Styles */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .about .container {
       display: flex; /* defines the flex container on mobile */
       flex-direction: column; /* defines flex container */
