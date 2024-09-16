@@ -1,6 +1,6 @@
 /**
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Last Modified: September 13 2024 by Brendan T. Pritikin
+  * Last Modified: September 16 2024 by Brendan T. Pritikin
   * Author: Brendan T. Pritikin and BootstrapMade.com
   * License: https://bootstrapmade.com/license/
 */
@@ -740,35 +740,48 @@ section,
 --------------------------------------------------------------*/
 /* General Styles */
 .about .container {
-  display: flex;
+  display: flex; /* defines flex container */
   flex-direction: row; /* Default layout for larger screens */
+  margin: auto; /* automatically adjust based on screen size */
+  justify-content: space-between;
+  column-gap: 25px;
 }
 
 .portrait-photo {
-  flex: 1; /* Optional: to ensure it takes up available space */
-  padding: 20px;
+  padding: 0px;
+  order: 2;
+  justify-content: right;
 }
 
 .intro-text {
+  margin-top: 200px; /* photo width is set to 400 px from a higher res; height is 533px */
   flex: 1; /* Optional: to ensure it takes up available space */
-  padding: 20px;
+  padding: 0px;
+  order: 1;
 }
 
 /* Mobile Styles */
 @media (max-width: 600px) {
   .about .container {
-      flex-direction: column; /* Stack items vertically on small screens */
-  }
-
-  .portrait-photo {
-      order: 2; /* Place "portrait-photo" second on mobile */
+      display: flex; /* defines the flex container on mobile */
+      flex-direction: column; /* defines flex container */
+      column-gap: 0px;
   }
 
   .intro-text {
-      order: 1; /* Place "intro-text" first on mobile */
+    margin-top: 0px;
+    margin-bottom: 50px;
+    flex: 1; /* to ensure it takes up available space */
+    padding-right: 55px;
+    order: 1; /* position at top of mobile site */
+  }
+
+  .portrait-photo {
+    padding: 0px;
+    flex: 1; /* to ensure it takes up all available space in row */
+    order: 2; /* position below text on mobile site */
   }
 }
-
 
 .about .btn-get-started {
   background-color: var(--accent-color);
