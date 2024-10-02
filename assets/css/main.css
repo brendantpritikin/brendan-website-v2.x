@@ -773,12 +773,14 @@ section,
     margin-bottom: 50px;
     flex: 1; /* to ensure it takes up available space */
     padding-right: 0px;
+    order: 1; /* position at top of mobile site */
   }
 
   .portrait-photo {
     padding: 0px;
     justify-content: center;
     flex: 1; /* to ensure it takes up all available space in row */
+    order: 2; /* position below text on mobile site */
   }
 }
 
