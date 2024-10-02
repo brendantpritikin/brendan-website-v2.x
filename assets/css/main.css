@@ -1,6 +1,6 @@
 /**
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Last Modified: September 16 2024 by Brendan T. Pritikin
+  * Last Modified: October 2 2024 by Brendan T. Pritikin
   * Author: Brendan T. Pritikin and BootstrapMade.com
   * License: https://bootstrapmade.com/license/
 */
@@ -773,14 +773,12 @@ section,
     margin-bottom: 50px;
     flex: 1; /* to ensure it takes up available space */
     padding-right: 0px;
-    order: 1; /* position at top of mobile site */
   }
 
   .portrait-photo {
     padding: 0px;
     justify-content: center;
     flex: 1; /* to ensure it takes up all available space in row */
-    order: 2; /* position below text on mobile site */
   }
 }
 
