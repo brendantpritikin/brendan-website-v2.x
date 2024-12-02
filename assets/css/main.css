@@ -299,11 +299,17 @@ h6 {
     margin-right: 10px;
     cursor: pointer;
     transition: color 0.3s;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu {
     padding: 0;
     z-index: 9997;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu ul {
@@ -444,6 +450,9 @@ h6 {
 
   .mobile-nav-active {
     overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .mobile-nav-active .mobile-nav-toggle {
@@ -454,6 +463,9 @@ h6 {
     right: 15px;
     margin-right: 0;
     z-index: 9999;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .mobile-nav-active .navmenu {
@@ -469,6 +481,9 @@ h6 {
 
   .mobile-nav-active .navmenu>ul {
     display: block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 }
 
