@@ -1,6 +1,6 @@
 /**
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Last Modified: December 1 2024 by Brendan T. Pritikin
+  * Last Modified: December 2 2024 by Brendan T. Pritikin
   * Author: Brendan T. Pritikin and BootstrapMade.com
   * License: https://bootstrapmade.com/license/
 */
@@ -258,6 +258,9 @@ h6 {
     font-size: 15px;
     text-transform: none;
     color: var(--nav-dropdown-color);
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 100%;
   }
 
   .navmenu .dropdown ul a i {
