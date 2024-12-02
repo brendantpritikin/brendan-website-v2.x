@@ -1,6 +1,6 @@
 /**
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Last Modified: October 2 2024 by Brendan T. Pritikin
+  * Last Modified: December 1 2024 by Brendan T. Pritikin
   * Author: Brendan T. Pritikin and BootstrapMade.com
   * License: https://bootstrapmade.com/license/
 */
@@ -393,6 +393,9 @@ h6 {
 
   .navmenu .dropdown ul a {
     color: var(--nav-dropdown-color);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown ul a:hover,
