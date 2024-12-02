@@ -178,7 +178,6 @@ h6 {
   .navmenu {
     padding: 0;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -189,14 +188,12 @@ h6 {
     list-style: none;
     align-items: center;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
   .navmenu li {
     position: relative;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -213,7 +210,6 @@ h6 {
     transition: 0.3s;
     text-decoration: none; /* remove underlining on nav bar links */
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -224,14 +220,12 @@ h6 {
     margin-left: 5px;
     transition: 0.3s;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
   .navmenu li:last-child a {
     padding-right: 0;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -241,7 +235,6 @@ h6 {
     color: var(--nav-hover-color);
     text-decoration: none; /* remove underlining on nav bar links */
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -252,7 +245,6 @@ h6 {
     color: var(--nav-hover-active-color);
     text-decoration: none; /* remove underlining on nav bar links */
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -271,14 +263,12 @@ h6 {
     z-index: 99;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
   .navmenu .dropdown ul li {
     min-width: 200px;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -288,14 +278,12 @@ h6 {
     text-transform: none;
     color: var(--nav-dropdown-color);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
   .navmenu .dropdown ul a i {
     font-size: 12px;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -304,7 +292,6 @@ h6 {
   .navmenu .dropdown ul li:hover>a {
     color: var(--nav-dropdown-hover-color);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -313,7 +300,6 @@ h6 {
     top: 100%;
     visibility: visible;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -322,7 +308,6 @@ h6 {
     left: -90%;
     visibility: hidden;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -332,7 +317,6 @@ h6 {
     left: -100%;
     visibility: visible;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 }
@@ -347,7 +331,6 @@ h6 {
     cursor: pointer;
     transition: color 0.3s;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -355,7 +338,6 @@ h6 {
     padding: 0;
     z-index: 9997;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -372,7 +354,6 @@ h6 {
     z-index: 9998;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -389,7 +370,6 @@ h6 {
     transition: 0.3s;
     text-decoration: none; /* remove underlining on nav bar links */
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -407,7 +387,6 @@ h6 {
     transition: 0.3s;
     background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -416,7 +395,6 @@ h6 {
     background-color: var(--accent-color);
     color: var(--contrast-color);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -425,7 +403,6 @@ h6 {
   .navmenu .active:focus {
     color: var(--nav-hover-color);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -433,7 +410,6 @@ h6 {
     color: var(--nav-hover-active-color);
     text-decoration: none; /* remove underlining on nav bar links */
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -443,7 +419,6 @@ h6 {
     color: var(--contrast-color);
     transform: rotate(180deg);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -458,21 +433,18 @@ h6 {
     box-shadow: none;
     transition: all 0.5s ease-in-out;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
   .navmenu .dropdown ul ul {
     background-color: rgba(33, 37, 41, 0.1);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
   .navmenu .dropdown ul a {
     color: var(--nav-dropdown-color);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -481,7 +453,6 @@ h6 {
   .navmenu .dropdown ul li:hover>a {
     color: var(--nav-dropdown-hover-color);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -489,14 +460,12 @@ h6 {
     display: block;
     background-color: rgba(33, 37, 41, 0.03);
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
   .mobile-nav-active {
     overflow: hidden;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -509,7 +478,6 @@ h6 {
     margin-right: 0;
     z-index: 9999;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
@@ -520,14 +488,12 @@ h6 {
     background: rgba(33, 37, 41, 0.8);
     transition: 0.3s;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 
   .mobile-nav-active .navmenu>ul {
     display: block;
     overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal !important;
   }
 }
