@@ -256,11 +256,13 @@ h6 {
   .navmenu .dropdown ul a {
     padding: 10px 20px;
     font-size: 15px;
+    max-width: 100%;
     text-transform: none;
     color: var(--nav-dropdown-color);
     white-space: normal;
+    text-wrap: wrap;
     word-wrap: break-word;
-    max-width: 100%;
+    overflow-wrap: break-word;
   }
 
   .navmenu .dropdown ul a i {
@@ -396,7 +398,9 @@ h6 {
   .navmenu .dropdown ul a {
     color: var(--nav-dropdown-color);
     white-space: normal;
+    text-wrap: wrap;
     word-wrap: break-word;
+    overflow-wrap: break-word;
     max-width: 100%;
   }
 
