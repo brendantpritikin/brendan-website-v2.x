@@ -177,6 +177,9 @@ h6 {
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu ul {
@@ -185,10 +188,16 @@ h6 {
     display: flex;
     list-style: none;
     align-items: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu li {
     position: relative;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu a,
@@ -201,9 +210,11 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    white-space: nowrap;
     transition: 0.3s;
     text-decoration: none; /* remove underlining on nav bar links */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu a i,
@@ -212,10 +223,16 @@ h6 {
     line-height: 0;
     margin-left: 5px;
     transition: 0.3s;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu li:last-child a {
     padding-right: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   
@@ -223,6 +240,9 @@ h6 {
   .navmenu .active:focus {
     color: var(--nav-hover-color);
     text-decoration: none; /* remove underlining on nav bar links */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   /*
@@ -231,6 +251,9 @@ h6 {
   .navmenu li:hover>a {
     color: var(--nav-hover-active-color);
     text-decoration: none; /* remove underlining on nav bar links */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown ul {
@@ -247,10 +270,16 @@ h6 {
     border-radius: 4px;
     z-index: 99;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown ul li {
     min-width: 200px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown ul a {
@@ -258,28 +287,43 @@ h6 {
     font-size: 15px;
     text-transform: none;
     color: var(--nav-dropdown-color);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown ul a i {
     font-size: 12px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
     color: var(--nav-dropdown-hover-color);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown:hover>ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown .dropdown ul {
     top: 0;
     left: -90%;
     visibility: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 
   .navmenu .dropdown .dropdown:hover>ul {
@@ -287,6 +331,9 @@ h6 {
     top: 0;
     left: -100%;
     visibility: visible;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal !important;
   }
 }
 
@@ -340,7 +387,6 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    white-space: nowrap;
     transition: 0.3s;
     text-decoration: none; /* remove underlining on nav bar links */
     overflow-wrap: break-word;
