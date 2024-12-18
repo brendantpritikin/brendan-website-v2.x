@@ -1,5 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Canonical: https://www.btpritikin.com/.well-known/security.txt
 Contact: mailto:security@btpritikin.com
 Encryption: https://www.btpritikin.com/.well-known/public-key.txt
 Expires: 2025-12-18T10:45:00Z
 Preferred-Languages: en
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEExbiOl1UIKugRhyoi/ocp6wuvKsIFAmdjGpIACgkQ/ocp6wuv
+KsIslg//Vmd2gj689I5QPAGVJewWwAUhaVk33J0zGqQBEKNxq17qJeILSW9KeW8G
+sNNpCP9OrK4b7mP8egpM+PMKW2VQv8BeCWymSF5Lr/7SHpEwfKCJnrvkk7WHFI1K
+BTFztGmaY9kIgcpiewrcNNFwsaNyLE7Zja2MlP7s4x0ESd94Q1dQqHXRcIRWlP2O
+Gd7fqi4Ub6AYxi56l+sTyIDOKF1/+ar8jhjuP75sruOCRu5ZYfHzCZBYI7bbgySA
+EStJJm9Rng4qZXLbLZb8JswwrNXVf0JX7FtppZf9jv5vujlCNfY8tRJZS1Y3aB/l
+CMezKaFnv2B6mu2GR1zCmzbuzE0C6hREPrbDXxzlDfz9YJXFwFYipUrSgrrLn1vn
+W5C96bJiDifa4CZQ5JwqCqojUaBjPn2zazAJVOR7L+kGRutp9CMqeW/GAkcyVQqr
+wunKKMIK7Ym6aa7yB0HwmfUcgwtmwHgR3HrybSk2F4bVLa48vY7czInY0WrS8RhI
+zLx51bT8or0s0ISGIJiEg8PbKR3XkKrrE/HwVQGIsXeQyr5D4BfthwU/h8/jev/K
+GhBJBaf/Qma77zBEHypeAufchVQzLgNaN9iWTSRjKPNiLg6owv+NS1+QR5bkTfjc
+1XcaFEavvFLqBP1bejA+UQtxvZrWGGHTKtcyMJ2vs+wheMrWyTo=
+=ijU4
+-----END PGP SIGNATURE-----
