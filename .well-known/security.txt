@@ -1,5 +1,5 @@
 Canonical: https://www.btpritikin.com/.well-known/security.txt
 Contact: mailto:security@btpritikin.com
 Encryption: https://www.btpritikin.com/.well-known/public-key.txt
-Expires: 2025-12-17T10:00:00Z
+Expires: 2025-12-18T10:45:00Z
 Preferred-Languages: en
