@@ -4,7 +4,7 @@ Hash: SHA256
 Canonical: https://www.btpritikin.com/.well-known/security.txt
 Contact: mailto:security@btpritikin.com
 Encryption: https://www.btpritikin.com/.well-known/public-key.txt
-Expires: 2026-12-18T11:50.000Z
+Expires: 2026-12-18T11:50:00Z
 Preferred-Languages: en
 -----BEGIN PGP SIGNATURE-----
 
