@@ -2,6 +2,6 @@
 my personal website files
 
 
-Built with a combination of Bootstrap, AnimateOnScroll, GLightbox, and the FontAwesome free font package
+Built with CSS, HTML, AnimateOnScroll, Bootstrap, FontAwesome Free, GLightbox, ImagesLoaded, and Swiper.js.
 
 Copyright &#169; 2026 Brendan T. Pritikin. All Rights Reserved.
